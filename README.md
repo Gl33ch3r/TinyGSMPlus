@@ -1,18 +1,18 @@
-![TinyGSM logo](https://cdn.rawgit.com/Gl33ch3r/TinyGSMPlusd18e93dc51fe988a0b175aac647185457ef640b5/extras/logo.svg)
+![TinyGSM logo](https://cdn.rawgit.com/Gl33ch3r/TinyGSMPlus/d18e93dc51fe988a0b175aac647185457ef640b5/extras/logo.svg)
 
 A small Arduino library for GSM modules, that just works.
 <!---
-[![GitHub download](https://img.shields.io/github/downloads/Gl33ch3r/TinyGSMPlustotal.svg)](https://github.com/Gl33ch3r/TinyGSMPlusreleases/latest)--->
-[![GitHub version](https://img.shields.io/github/release/vshymanskyy/TinyGSM.svg)](https://github.com/Gl33ch3r/TinyGSMPlusreleases/latest)
+[![GitHub download](https://img.shields.io/github/downloads/Gl33ch3r/TinyGSMPlus/total.svg)](https://github.com/Gl33ch3r/TinyGSMPlus/releases/latest)--->
+[![GitHub version](https://img.shields.io/github/release/vshymanskyy/TinyGSM.svg)](https://github.com/Gl33ch3r/TinyGSMPlus/releases/latest)
 [![Build status](https://img.shields.io/travis/vshymanskyy/TinyGSM.svg)](https://travis-ci.org/vshymanskyy/TinyGSM)
-[![GitHub issues](https://img.shields.io/github/issues/vshymanskyy/TinyGSM.svg)](https://github.com/Gl33ch3r/TinyGSMPlusissues)
-[![GitHub wiki](https://img.shields.io/badge/Wiki-available-brightgreen.svg)](https://github.com/Gl33ch3r/TinyGSMPluswiki)
-[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/TinyGSM.svg)](https://github.com/Gl33ch3r/TinyGSMPlusstargazers)
-[![License](https://img.shields.io/badge/license-LGPL3-blue.svg)](https://github.com/Gl33ch3r/TinyGSMPlusblob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/vshymanskyy/TinyGSM.svg)](https://github.com/Gl33ch3r/TinyGSMPlus/issues)
+[![GitHub wiki](https://img.shields.io/badge/Wiki-available-brightgreen.svg)](https://github.com/Gl33ch3r/TinyGSMPlus/wiki)
+[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/TinyGSM.svg)](https://github.com/Gl33ch3r/TinyGSMPlus/stargazers)
+[![License](https://img.shields.io/badge/license-LGPL3-blue.svg)](https://github.com/Gl33ch3r/TinyGSMPlus/blob/master/LICENSE)
 
 If you like **TinyGSM** - give it a star, or fork it and contribute!
-[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/TinyGSM.svg?style=social&label=Star)](https://github.com/Gl33ch3r/TinyGSMPlusstargazers)
-[![GitHub forks](https://img.shields.io/github/forks/vshymanskyy/TinyGSM.svg?style=social&label=Fork)](https://github.com/Gl33ch3r/TinyGSMPlusnetwork)
+[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/TinyGSM.svg?style=social&label=Star)](https://github.com/Gl33ch3r/TinyGSMPlus/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vshymanskyy/TinyGSM.svg?style=social&label=Fork)](https://github.com/Gl33ch3r/TinyGSMPlus/network)
 
 You can also join our chat:
 [![Gitter](https://img.shields.io/gitter/room/vshymanskyy/TinyGSM.svg)](https://app.gitter.im/#/room/#tinygsm_Lobby:gitter.im)
@@ -92,7 +92,7 @@ TinyGSM also pulls data gently from the modem (whenever possible), so it can ope
 - Digi XBee S6B, XBee LTE Cat 1, XBee3 LTE Cat 1, XBee3 CatM
 - Nimbelink Skywire/Airgain NL-SW-LTE-QBG96, NL-SW-LTE-QBG95
 - RAK WisLTE ***(alpha)***
-- ... other modules, based on supported modems. Some boards require [**special configuration**](https://github.com/Gl33ch3r/TinyGSMPluswiki/Board-configuration).
+- ... other modules, based on supported modems. Some boards require [**special configuration**](https://github.com/Gl33ch3r/TinyGSMPlus/wiki/Board-configuration).
 
 Watch this repo for new updates! And of course, contributions are welcome ;)
 
@@ -179,7 +179,7 @@ Watch this repo for new updates! And of course, contributions are welcome ;)
 - SIMCOM A7672X
   - [Giovanni de Rosso Unruh](https://github.com/giovannirosso)
 - Other Contributors:
-    - https://github.com/Gl33ch3r/TinyGSMPlusgraphs/contributors
+    - https://github.com/Gl33ch3r/TinyGSMPlus/graphs/contributors
 
 ## Getting Started
 
@@ -194,7 +194,7 @@ Watch this repo for new updates! And of course, contributions are welcome ;)
   4. Ensure that you have a stable power supply to the module of at least **2A**.
   5. Check if serial connection is working (Hardware Serial is recommended)
      Send an ```AT``` command using [this sketch](tools/AT_Debug/AT_Debug.ino)
-  6. Try out the [WebClient](https://github.com/Gl33ch3r/TinyGSMPlusblob/master/examples/WebClient/WebClient.ino) example
+  6. Try out the [WebClient](https://github.com/Gl33ch3r/TinyGSMPlus/blob/master/examples/WebClient/WebClient.ino) example
 
 #### Writing your own code
 
@@ -241,9 +241,9 @@ The general flow of your code should be:
 #### If you have any issues
 
   1. Read the whole README (you're looking at it!), particularly the troubleshooting section below.
-  2. Some boards require [**special configuration**](https://github.com/Gl33ch3r/TinyGSMPluswiki/Board-configuration).
+  2. Some boards require [**special configuration**](https://github.com/Gl33ch3r/TinyGSMPlus/wiki/Board-configuration).
   3. Try running the Diagnostics sketch
-  4. Check for [**highlighted topics here**](https://github.com/Gl33ch3r/TinyGSMPlusissues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22for+reference%22+)
+  4. Check for [**highlighted topics here**](https://github.com/Gl33ch3r/TinyGSMPlus/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22for+reference%22+)
   5. If you have a question, please post it in our [Gitter chat](https://gitter.im/tinygsm)
 
 ## How does it work?
@@ -272,7 +272,7 @@ For additional functions, please refer to [this example sketch](examples/AllFunc
 Most modules require _**as much as 2A**_ to properly connect to the network.
 This is 4x what a "standard" USB will supply!
 Improving the power supply actually solves stability problems in **many** cases!
-- Read about [**powering your module**](https://github.com/Gl33ch3r/TinyGSMPluswiki/Powering-GSM-module).
+- Read about [**powering your module**](https://github.com/Gl33ch3r/TinyGSMPlus/wiki/Powering-GSM-module).
 - Keep your wires as short as possible
 - Consider soldering them for a stable connection
 - Do not put your wires next to noisy signal sources (buck converters, antennas, oscillators etc.)
@@ -296,7 +296,7 @@ This may result in problems such as:
  * etc.
 
 To return module to **Factory Defaults**, use this sketch:
-  File -> Examples -> TinyGSM -> tools -> [FactoryReset](https://github.com/Gl33ch3r/TinyGSMPlusblob/master/tools/FactoryReset/FactoryReset.ino)
+  File -> Examples -> TinyGSM -> tools -> [FactoryReset](https://github.com/Gl33ch3r/TinyGSMPlus/blob/master/tools/FactoryReset/FactoryReset.ino)
 
 In some cases, you may need to set an initial APN to connect to the cellular network.
 Try using the ```gprsConnect(APN)``` function to set an initial APN if you are unable to register on the network.
@@ -315,7 +315,7 @@ When using MQTT, to keep a continuous connection you may need to reduce your kee
 ### Diagnostics sketch
 
 Use this sketch to help diagnose SIM card and GPRS connection issues:
-  File -> Examples -> TinyGSM -> tools -> [Diagnostics](https://github.com/Gl33ch3r/TinyGSMPlusblob/master/tools/Diagnostics/Diagnostics.ino)
+  File -> Examples -> TinyGSM -> tools -> [Diagnostics](https://github.com/Gl33ch3r/TinyGSMPlus/blob/master/tools/Diagnostics/Diagnostics.ino)
 
 If the diagnostics fail, uncomment this line to output some debugging comments from the library:
 ```cpp
@@ -380,7 +380,7 @@ Be sure to set correct TX/RX pins in the sketch. Please note that not every Ardu
 #### HardwareSerial
 
 When using ESP32 `HardwareSerial`, you may need to specify additional parameters to the `.begin()` call.
-Please [refer to this comment](https://github.com/Gl33ch3r/TinyGSMPlusissues/91#issuecomment-356024747).
+Please [refer to this comment](https://github.com/Gl33ch3r/TinyGSMPlus/issues/91#issuecomment-356024747).
 
 #### HttpClient
 You will not be able to compile the HttpClient or HttpsClient examples with ESP32 core 1.0.2.  Upgrade to 1.0.3, downgrade to version 1.0.1 or use the WebClient example.
@@ -388,11 +388,11 @@ You will not be able to compile the HttpClient or HttpsClient examples with ESP3
 ### SAMD21
 
 When using SAMD21-based boards, you may need to use a sercom uart port instead of `Serial1`.
-Please [refer to this comment](https://github.com/Gl33ch3r/TinyGSMPlusissues/102#issuecomment-345548941).
+Please [refer to this comment](https://github.com/Gl33ch3r/TinyGSMPlus/issues/102#issuecomment-345548941).
 
 ### Goouuu Tech IOT-GA6 vs AI-Thinker A6 confusion
 
-It turns out that **Goouuu Tech IOT-GA6** is not the same as **AI-Thinker A6**. Unfortunately IOT-GA6 is not supported out of the box yet. There are some hints that IOT-GA6 firmware may be updated to match A6... See [this topic](https://github.com/Gl33ch3r/TinyGSMPlusissues/164).
+It turns out that **Goouuu Tech IOT-GA6** is not the same as **AI-Thinker A6**. Unfortunately IOT-GA6 is not supported out of the box yet. There are some hints that IOT-GA6 firmware may be updated to match A6... See [this topic](https://github.com/Gl33ch3r/TinyGSMPlus/issues/164).
 
 ### SIM800 and SSL
 
